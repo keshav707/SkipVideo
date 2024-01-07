@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(119, 0, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video{
+    height: 400px;
+    width: 600px;
+    overflow: hidden;
+    background-color: black;
+}
+.video video{
+    height: 400px;
+    width: 600px;
+    
+}
+#Song1{
+    visibility: visible;
+}
+#Song2{
+    visibility: hidden;
+}
+.Skip{
+    height: 30px;
+    width: 50px;
+    background-color: gray;
+    color: black;
+    
+}
